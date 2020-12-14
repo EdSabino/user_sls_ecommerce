@@ -1,0 +1,6 @@
+.serverless
+.serverless/*
+node_modules
+node_modules/*
+package-loc.json
+target
