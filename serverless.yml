@@ -1,0 +1,31 @@
+service: ecommerce-users
+provider:
+  name: aws
+  runtime: rust
+  stage: ${opt:stage, 'dev'}
+  memorySize: 128
+  environment:
+    MONGODBENDPOINT: ${self:custom.mongoEndpoint}
+  
+custom:
+  stage: ${opt:stage, self:provider.stage}
+  region: ${self:provider.region}
+  mongoEndpoint: ${self:custom.mongoEndpoints.${self:custom.stage}}
+  mongoEndpoints: 
+    dev: 'mongodb+srv://adm:9XIh4bdywjikBOKu@development.khj7l.mongodb.net/users?retryWrites=true&w=majority'
+    prod: ''
+
+plugins:
+  - serverless-rust
+
+  # creates one artifact for each function
+package:
+  individually: true
+
+functions:
+  createFunction:
+    handler: create
+    events:
+      - http:
+          path: /
+          method: post

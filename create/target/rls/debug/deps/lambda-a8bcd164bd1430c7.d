@@ -1,0 +1,9 @@
+c:\Users\Eduardo\Documents\ecommerce\users\create\target\rls\debug\deps\lambda-a8bcd164bd1430c7.rmeta: C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\lib.rs C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\client.rs C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\requests.rs C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\simulated.rs C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\types.rs
+
+c:\Users\Eduardo\Documents\ecommerce\users\create\target\rls\debug\deps\lambda-a8bcd164bd1430c7.d: C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\lib.rs C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\client.rs C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\requests.rs C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\simulated.rs C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\types.rs
+
+C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\lib.rs:
+C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\client.rs:
+C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\requests.rs:
+C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\simulated.rs:
+C:\Users\Eduardo\.cargo\git\checkouts\aws-lambda-rust-runtime-7c865cce90132439\13aa8f0\lambda\src\types.rs:

@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=C:\Users\Eduardo\Documents\ecommerce\users\target\debug\build\typenum-28f98d028fa98396\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=C:\Users\Eduardo\Documents\ecommerce\users\target\debug\build\typenum-28f98d028fa98396\out\op.rs

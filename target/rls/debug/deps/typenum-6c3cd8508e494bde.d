@@ -1,0 +1,18 @@
+c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\deps\typenum-6c3cd8508e494bde.rmeta: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\lib.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\bit.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\int.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\marker_traits.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\operator_aliases.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\private.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\type_operators.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\uint.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\array.rs c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\build\typenum-28f98d028fa98396\out\op.rs c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\build\typenum-28f98d028fa98396\out\consts.rs
+
+c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\deps\typenum-6c3cd8508e494bde.d: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\lib.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\bit.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\int.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\marker_traits.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\operator_aliases.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\private.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\type_operators.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\uint.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\array.rs c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\build\typenum-28f98d028fa98396\out\op.rs c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\build\typenum-28f98d028fa98396\out\consts.rs
+
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\lib.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\bit.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\int.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\marker_traits.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\operator_aliases.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\private.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\type_operators.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\uint.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.12.0\src\array.rs:
+c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\build\typenum-28f98d028fa98396\out\op.rs:
+c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\build\typenum-28f98d028fa98396\out\consts.rs:
+
+# env-dep:TYPENUM_BUILD_CONSTS=c:\\Users\\Eduardo\\Documents\\ecommerce\\users\\target\\rls\\debug\\build\\typenum-28f98d028fa98396\\out\\consts.rs
+# env-dep:TYPENUM_BUILD_OP=c:\\Users\\Eduardo\\Documents\\ecommerce\\users\\target\\rls\\debug\\build\\typenum-28f98d028fa98396\\out\\op.rs

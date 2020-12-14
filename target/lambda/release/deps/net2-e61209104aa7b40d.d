@@ -1,0 +1,15 @@
+/code/target/lambda/release/deps/net2-e61209104aa7b40d.rmeta: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/tcp.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/udp.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/socket.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/ext.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/utils.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/sys/unix/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/sys/unix/impls.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/unix.rs
+
+/code/target/lambda/release/deps/libnet2-e61209104aa7b40d.rlib: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/tcp.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/udp.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/socket.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/ext.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/utils.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/sys/unix/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/sys/unix/impls.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/unix.rs
+
+/code/target/lambda/release/deps/net2-e61209104aa7b40d.d: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/tcp.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/udp.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/socket.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/ext.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/utils.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/sys/unix/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/sys/unix/impls.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/unix.rs
+
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/lib.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/tcp.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/udp.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/socket.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/ext.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/utils.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/sys/unix/mod.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/sys/unix/impls.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.37/src/unix.rs:

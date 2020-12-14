@@ -1,0 +1,12 @@
+c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\deps\base64-071fc757bd1ef5e1.rmeta: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\lib.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\chunked_encoder.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\display.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\tables.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\write\mod.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\write\encoder.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\encode.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\decode.rs
+
+c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\deps\base64-071fc757bd1ef5e1.d: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\lib.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\chunked_encoder.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\display.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\tables.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\write\mod.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\write\encoder.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\encode.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\decode.rs
+
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\lib.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\chunked_encoder.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\display.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\tables.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\write\mod.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\write\encoder.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\encode.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\decode.rs:

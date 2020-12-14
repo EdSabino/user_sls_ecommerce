@@ -1,0 +1,15 @@
+/code/target/lambda/release/deps/uuid-16954fcb54f28cae.rmeta: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/builder/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/builder/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/parser/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/parser/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/prelude.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/adapter/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/v4.rs
+
+/code/target/lambda/release/deps/libuuid-16954fcb54f28cae.rlib: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/builder/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/builder/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/parser/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/parser/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/prelude.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/adapter/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/v4.rs
+
+/code/target/lambda/release/deps/uuid-16954fcb54f28cae.d: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/builder/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/builder/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/parser/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/parser/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/prelude.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/adapter/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/v4.rs
+
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/lib.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/builder/mod.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/builder/error.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/error.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/parser/mod.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/parser/error.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/prelude.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/adapter/mod.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.1/src/v4.rs:

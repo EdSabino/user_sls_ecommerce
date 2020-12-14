@@ -1,0 +1,11 @@
+c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\deps\widestring-5e4bc6ac181bffe2.rmeta: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\lib.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\platform\mod.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\platform\windows.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\ucstr.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\ucstring.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\ustr.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\ustring.rs
+
+c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\deps\widestring-5e4bc6ac181bffe2.d: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\lib.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\platform\mod.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\platform\windows.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\ucstr.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\ucstring.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\ustr.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\ustring.rs
+
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\lib.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\platform\mod.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\platform\windows.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\ucstr.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\ucstring.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\ustr.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\widestring-0.4.3\src\ustring.rs:

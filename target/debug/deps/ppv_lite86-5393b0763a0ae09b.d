@@ -1,0 +1,11 @@
+C:\Users\Eduardo\Documents\ecommerce\users\target\debug\deps\ppv_lite86-5393b0763a0ae09b.rmeta: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\lib.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\soft.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\types.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\x86_64\mod.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\x86_64\sse2.rs
+
+C:\Users\Eduardo\Documents\ecommerce\users\target\debug\deps\libppv_lite86-5393b0763a0ae09b.rlib: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\lib.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\soft.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\types.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\x86_64\mod.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\x86_64\sse2.rs
+
+C:\Users\Eduardo\Documents\ecommerce\users\target\debug\deps\ppv_lite86-5393b0763a0ae09b.d: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\lib.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\soft.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\types.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\x86_64\mod.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\x86_64\sse2.rs
+
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\lib.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\soft.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\types.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\x86_64\mod.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.10\src\x86_64\sse2.rs:

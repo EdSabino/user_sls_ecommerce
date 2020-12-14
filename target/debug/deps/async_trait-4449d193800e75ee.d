@@ -1,0 +1,11 @@
+C:\Users\Eduardo\Documents\ecommerce\users\target\debug\deps\async_trait-4449d193800e75ee.dll: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\lib.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\args.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\expand.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\lifetime.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\parse.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\receiver.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\respan.rs
+
+C:\Users\Eduardo\Documents\ecommerce\users\target\debug\deps\async_trait-4449d193800e75ee.d: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\lib.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\args.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\expand.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\lifetime.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\parse.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\receiver.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\respan.rs
+
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\lib.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\args.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\expand.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\lifetime.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\parse.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\receiver.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\async-trait-0.1.42\src\respan.rs:

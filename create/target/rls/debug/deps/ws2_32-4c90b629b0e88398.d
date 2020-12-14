@@ -1,0 +1,5 @@
+c:\Users\Eduardo\Documents\ecommerce\users\create\target\rls\debug\deps\ws2_32-4c90b629b0e88398.rmeta: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ws2_32-sys-0.2.1\src\lib.rs
+
+c:\Users\Eduardo\Documents\ecommerce\users\create\target\rls\debug\deps\ws2_32-4c90b629b0e88398.d: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ws2_32-sys-0.2.1\src\lib.rs
+
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\ws2_32-sys-0.2.1\src\lib.rs:

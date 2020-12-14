@@ -1,0 +1,17 @@
+/code/target/lambda/release/deps/librustversion-36296e7dd07f56e5.so: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/attr.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/bound.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/constfn.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/date.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/expr.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/iter.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/release.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/time.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/token.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/version.rs /code/target/lambda/release/build/rustversion-c42527402e9cae85/out/version.rs
+
+/code/target/lambda/release/deps/rustversion-36296e7dd07f56e5.d: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/attr.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/bound.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/constfn.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/date.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/expr.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/iter.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/release.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/time.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/token.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/version.rs /code/target/lambda/release/build/rustversion-c42527402e9cae85/out/version.rs
+
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/lib.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/attr.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/bound.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/constfn.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/date.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/error.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/expr.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/iter.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/release.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/time.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/token.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.4/src/version.rs:
+/code/target/lambda/release/build/rustversion-c42527402e9cae85/out/version.rs:

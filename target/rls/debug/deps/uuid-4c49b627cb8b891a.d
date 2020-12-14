@@ -1,0 +1,13 @@
+c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\deps\uuid-4c49b627cb8b891a.rmeta: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\lib.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\builder\mod.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\builder\error.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\error.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\parser\mod.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\parser\error.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\prelude.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\adapter\mod.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\v4.rs
+
+c:\Users\Eduardo\Documents\ecommerce\users\target\rls\debug\deps\uuid-4c49b627cb8b891a.d: C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\lib.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\builder\mod.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\builder\error.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\error.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\parser\mod.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\parser\error.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\prelude.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\adapter\mod.rs C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\v4.rs
+
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\lib.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\builder\mod.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\builder\error.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\error.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\parser\mod.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\parser\error.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\prelude.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\adapter\mod.rs:
+C:\Users\Eduardo\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\v4.rs:
