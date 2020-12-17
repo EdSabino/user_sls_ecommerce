@@ -17,7 +17,7 @@ async fn main() -> Result<(), Error> {
 async fn create(event: Value, _: Context) -> Result<Value, Error> {
     let client =  rust_sls_common::create_client().await?;
     let parsed_event: Event = serde_json::from_value(event)?;
-    match create_user(client, serde_json::from_value(parsed_event.body)?).await {
+    match create_user(client, serde_json::from_value(parsed_event.body.unwrap())?).await {
         Ok(_) => Ok(json!({ "statusCode": 204 })),
         Err(err) => Ok(json!({
             "statusCode": 400,
@@ -29,6 +29,7 @@ async fn create(event: Value, _: Context) -> Result<Value, Error> {
 async fn create_user(client: Client, mut user: User) -> Result<(), Error> {
     user.validate()?;
     user.hash_password();
+    println!("{}", DatabaseName::get_database_name().as_str());
     let db = client.database(&DatabaseName::get_database_name().as_str());
     let collection = db.collection("users");
     collection.insert_one(to_document(&user).unwrap(), None).await?;
@@ -40,6 +41,7 @@ mod tests {
     use super::*;
     use serde_json::json;
     use std::env;
+    use mongodb::bson::doc;
 
     #[tokio::test]
     async fn must_fail_user_null() {
@@ -94,7 +96,7 @@ mod tests {
     }
 
     #[tokio::test]
-    async fn user_must_be_created() {
+    async fn user_must_have_name() {
         env::set_var("MONGODBENDPOINT", "mongodb+srv://adm:9XIh4bdywjikBOKu@development.khj7l.mongodb.net/users_test?retryWrites=true&w=majority");
         let event = json!({
             "resource": "/",
@@ -102,13 +104,62 @@ mod tests {
             "httpMethod": "POST",
             "queryStringParameters": "",
             "body": json!({
-                "email": "email@email.com",
+                "email": "email@gmail.com",
                 "password": "password"
             })
         });
         match create(event.clone(), Context::default()).await {
+            Ok(_) => assert!(false),
+            Err(err) => assert_eq!(err.to_string(), "missing field `name`")
+        }
+    }
+    
+    #[tokio::test]
+    async fn user_must_have_birthday() {
+        env::set_var("MONGODBENDPOINT", "mongodb+srv://adm:9XIh4bdywjikBOKu@development.khj7l.mongodb.net/users_test?retryWrites=true&w=majority");
+        let event = json!({
+            "resource": "/",
+            "path": "/",
+            "httpMethod": "POST",
+            "queryStringParameters": "",
+            "body": json!({
+                "email": "email@gmail.com",
+                "password": "password",
+                "name": "Usuario"
+            })
+        });
+        match create(event.clone(), Context::default()).await {
+            Ok(_) => assert!(false),
+            Err(err) => assert_eq!(err.to_string(), "missing field `birthday`")
+        }
+    }
+
+    #[tokio::test]
+    async fn user_must_be_created() {
+        env::set_var("MONGODBENDPOINT", "mongodb+srv://adm:9XIh4bdywjikBOKu@development.khj7l.mongodb.net/users_test?retryWrites=true&w=majority");
+        let db = rust_sls_common::create_client().await.unwrap().database(&DatabaseName::get_database_name().as_str());
+        let collection = db.collection("users");
+        collection.delete_many(doc! { "email": "email@gmail.com" }, None).await.unwrap();
+        let event = json!({
+            "resource": "/",
+            "path": "/",
+            "httpMethod": "POST",
+            "queryStringParameters": "",
+            "body": json!({
+                "email": "email@gmail.com",
+                "password": "password",
+                "name": "Usuario",
+                "birthday": "21/06/1999",
+                "document": "00000000000",
+                "extra": json!({
+                    "something": "other_thing"
+                })
+            })
+        });
+        println!("{}", DatabaseName::get_database_name().as_str());
+        match create(event.clone(), Context::default()).await {
             Ok(val) => assert_eq!(json!({ "statusCode": 204 }), val),
-            Err(_) => assert!(false)
+            Err(err) => println!("{}", err.to_string())
         }
     }
 }

@@ -29,3 +29,10 @@ functions:
       - http:
           path: /
           method: post
+  
+  editFunction:
+    handler: edit
+    events:
+      - http:
+          path: /{user_id}
+          method: put

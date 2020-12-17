@@ -1,18 +1,20 @@
-use rust_sls_common::{ Error, generic_error::GenericError, serde_date};
-use chrono::{DateTime, Utc};
+use rust_sls_common::{ Error, generic_error::GenericError, serde_date };
 use serde::{Deserialize, Serialize};
 use sha2::{Sha256, Digest};
+use serde_json::Value;
+use chrono::NaiveDate;
 use std::str;
 use regex::Regex;
 
 #[derive(Deserialize, Debug, Serialize)]
-#[serde(rename_all = "camelCase")]
 pub struct User {
     pub email: String,
     pub password: String,
     pub name: String,
     #[serde(with = "serde_date")]
-    pub birthday: DateTime<Utc>
+    pub birthday: NaiveDate,
+    pub document: String,
+    pub extra: Option<Value>
 }
 
 impl User {
@@ -41,36 +43,40 @@ impl User {
 mod tests {
     use super::*;
 
+    pub trait Mock {
+        fn mock() -> Self;
+    }
+
+    impl Mock for User {
+        fn mock() -> Self {
+            User {
+                email: "email@email.com".to_string(),
+                password: "password".to_string(),
+                name: "Usuario".to_string(),
+                birthday: NaiveDate::from_ymd(1999, 06, 21),
+                document: "00000000000".to_string(),
+                extra: None
+            }
+        }
+    }
+
     #[tokio::test]
     async fn user_email_must_be_valid() {
-        let user = User {
-            email: "email".to_string(),
-            password: "password".to_string(),
-            name: "Usuario".to_string(),
-            birthday: Utc::now()
-        };
+        let mut user = User::mock();
+        user.email = "email".to_string();
         match user.validate() {
             Ok(_) => assert!(false),
             Err(err) => assert_eq!(err.to_string(), "invalid_email")
         }
 
-        let user = User {
-            email: "email.com".to_string(),
-            password: "password".to_string(),
-            name: "Usuario".to_string(),
-            birthday: Utc::now()
-        };
+        let mut user = User::mock();
+        user.email = "email.com".to_string();
         match user.validate() {
             Ok(_) => assert!(false),
             Err(err) => assert_eq!(err.to_string(), "invalid_email")
         }
 
-        let user = User {
-            email: "email@email.com".to_string(),
-            password: "password".to_string(),
-            name: "Usuario".to_string(),
-            birthday: Utc::now()
-        };
+        let user = User::mock();
         match user.validate() {
             Ok(_) => assert!(true),
             Err(_) => assert!(false)
@@ -79,34 +85,21 @@ mod tests {
 
     #[tokio::test]
     async fn user_password_must_have_more_then_4_characters() {
-        let user = User {
-            email: "email@email.com".to_string(),
-            password: "pas".to_string(),
-            name: "Usuario".to_string(),
-            birthday: Utc::now()
-        };
+        let mut user = User::mock();
+        user.password = "pas".to_string();
         match user.validate() {
             Ok(_) => assert!(false),
             Err(err) => assert_eq!(err.to_string(), "password_to_short")
         }
 
-        let user = User {
-            email: "email@email.com".to_string(),
-            password: "pass".to_string(),
-            name: "Usuario".to_string(),
-            birthday: Utc::now()
-        };
+        let mut user = User::mock();
+        user.password = "pass".to_string();
         match user.validate() {
             Ok(_) => assert!(true),
             Err(_) => assert!(false)
         }
 
-        let user = User {
-            email: "email@email.com".to_string(),
-            password: "password".to_string(),
-            name: "Usuario".to_string(),
-            birthday: Utc::now()
-        };
+        let user = User::mock();
         match user.validate() {
             Ok(_) => assert!(true),
             Err(_) => assert!(false)
@@ -115,12 +108,7 @@ mod tests {
 
     #[tokio::test]
     async fn must_hash_password_with_sh2() {
-        let mut user = User {
-            email: "email@email.com".to_string(),
-            password: "password".to_string(),
-            name: "Usuario".to_string(),
-            birthday: Utc::now()
-        };
+        let mut user = User::mock();
         user.hash_password();
 
         let mut hasher = Sha256::new();

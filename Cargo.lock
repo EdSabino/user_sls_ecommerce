@@ -365,7 +365,7 @@ dependencies = [
  "lambda",
  "mongodb",
  "regex",
- "rust_sls_common",
+ "rust_sls_common 1.0.0 (git+https://github.com/EdSabino/rust_sls_common/)",
  "serde",
  "serde_json",
  "sha2 0.9.2",
@@ -395,9 +395,9 @@ dependencies = [
 
 [[package]]
 name = "darling"
-version = "0.10.3"
+version = "0.10.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "15d658711a12632b5574c8d5b3fc5d2f0d2f87b9fbf9237ee0f759b88bb6bdec"
+checksum = "0d706e75d87e35569db781a9b5e2416cff1236a47ed380831f959382ccd5f858"
 dependencies = [
  "darling_core",
  "darling_macro",
@@ -405,23 +405,23 @@ dependencies = [
 
 [[package]]
 name = "darling_core"
-version = "0.10.3"
+version = "0.10.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "16d3514d243331d8acde56bfcf45d0147aabbda853c2f49dce081ea85f9a7220"
+checksum = "f0c960ae2da4de88a91b2d920c2a7233b400bc33cb28453a2987822d8392519b"
 dependencies = [
  "fnv",
  "ident_case",
  "proc-macro2 1.0.24",
  "quote 1.0.7",
- "strsim",
+ "strsim 0.9.3",
  "syn 1.0.54",
 ]
 
 [[package]]
 name = "darling_macro"
-version = "0.10.3"
+version = "0.10.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "44f63c369ef0c17ad17585d31d5f2bf10dece2710bf0766e01db57a6f9849a2e"
+checksum = "d9b5a2f4ac4969822c62224815d069952656cadc7084fdca9751e6d959189b72"
 dependencies = [
  "darling_core",
  "quote 1.0.7",
@@ -455,6 +455,21 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d3dd60d1080a57a05ab032377049e0591415d2b31afd7028356dbf3cc6dcb066"
 dependencies = [
  "generic-array 0.14.4",
+]
+
+[[package]]
+name = "edit"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "lambda",
+ "mongodb",
+ "regex",
+ "rust_sls_common 1.0.0 (git+https://github.com/EdSabino/rust_sls_common/?tag=1.0.0)",
+ "serde",
+ "serde_json",
+ "sha2 0.9.2",
+ "tokio",
 ]
 
 [[package]]
@@ -792,9 +807,9 @@ dependencies = [
 
 [[package]]
 name = "http"
-version = "0.2.1"
+version = "0.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "28d569972648b2c512421b5f2a405ad6ac9666547189d0c5477a3f200f3e02f9"
+checksum = "84129d298a6d57d246960ff8eb831ca4af3f96d29e2e28848dae275408658e26"
 dependencies = [
  "bytes",
  "fnv",
@@ -866,9 +881,9 @@ dependencies = [
 
 [[package]]
 name = "indexmap"
-version = "1.6.0"
+version = "1.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "55e2e4c765aa53a0424761bf9f41aa7a6ac1efa87238f59560640e27fca028f2"
+checksum = "4fb1fa934250de4de8aef298d81c729a7d33d8c239daa3a7575e6b92bfc7313b"
 dependencies = [
  "autocfg",
  "hashbrown",
@@ -1003,6 +1018,10 @@ checksum = "4fabed175da42fed1fa0746b0ea71f412aa9d35e76e95e59b192c64b9dc2bf8b"
 dependencies = [
  "cfg-if 0.1.10",
 ]
+
+[[package]]
+name = "login"
+version = "0.1.0"
 
 [[package]]
 name = "loom"
@@ -1160,7 +1179,7 @@ dependencies = [
  "sha2 0.8.2",
  "socket2",
  "stringprep",
- "strsim",
+ "strsim 0.10.0",
  "take_mut",
  "time",
  "tokio",
@@ -1552,7 +1571,18 @@ dependencies = [
 [[package]]
 name = "rust_sls_common"
 version = "1.0.0"
-source = "git+https://github.com/EdSabino/rust_sls_common/?branch=master#ba37c9da899c67c2d5d976ee66825a6a0d2da166"
+source = "git+https://github.com/EdSabino/rust_sls_common/?tag=1.0.0#5a603e57c68ec6b507ad7aa4bc26f5932ee452b5"
+dependencies = [
+ "chrono",
+ "mongodb",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
+name = "rust_sls_common"
+version = "1.0.0"
+source = "git+https://github.com/EdSabino/rust_sls_common/?branch=master#5a603e57c68ec6b507ad7aa4bc26f5932ee452b5"
 dependencies = [
  "chrono",
  "mongodb",
@@ -1761,13 +1791,12 @@ checksum = "ae524f056d7d770e174287294f562e95044c68e88dec909a00d2094805db9d75"
 
 [[package]]
 name = "socket2"
-version = "0.3.17"
+version = "0.3.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2c29947abdee2a218277abeca306f25789c938e500ea5a9d4b12a5a504466902"
+checksum = "97e0e9fd577458a4f61fb91fcb559ea2afecc54c934119421f9f5d3d5b1a1057"
 dependencies = [
  "cfg-if 1.0.0",
  "libc",
- "redox_syscall",
  "winapi 0.3.9",
 ]
 
@@ -1786,6 +1815,12 @@ dependencies = [
  "unicode-bidi",
  "unicode-normalization",
 ]
+
+[[package]]
+name = "strsim"
+version = "0.9.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6446ced80d6c486436db5c078dde11a9f73d42b57fb273121e160b84f63d894c"
 
 [[package]]
 name = "strsim"
